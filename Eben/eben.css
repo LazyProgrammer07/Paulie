@@ -5,7 +5,7 @@ body {
     margin: 40px;
     font-family: arial, sans-serif;
     font-size: 22px;
-    background-image: url("ironman.jpg");
+    background-color: black;
   }
   
   /* Applies to all <h1>...</h1> elements. */
