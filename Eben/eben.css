@@ -1,0 +1,66 @@
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+    text-align: justify;
+    margin: 40px;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+    background-color: black;
+  }
+  
+  /* Applies to all <h1>...</h1> elements. */
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: rgb(173, 13, 13);
+    text-shadow: 0 0 5px black;
+    text-decoration: underline;
+    text-decoration-color: rgba(172, 124, 3, 0.925);
+    margin-top: 5px;
+  }
+  
+
+  
+  /* Applies to the element with <... id="someid"> specified. */
+  #footer { 
+    color: rgba(172, 124, 3, 0.925);
+    font-size: 30px;
+  
+  }
+  
+  a:link, a:visited {
+    background-color: rgba(172, 124, 3, 0.925);
+    color: whitesmoke;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: crimson;
+  }
+  
+  
+  img{
+    display: block;
+    width: 400px;
+    border:7px solid rgb(173, 13, 13);
+  }
+  
+  h2{
+    color: rgb(173, 13, 13);
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  ul{
+      color:rgba(172, 124, 3, 0.925);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 50px;
+      letter-spacing: 2px;
+      font-weight: bold;
+     }
